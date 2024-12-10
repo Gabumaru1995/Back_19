@@ -1,0 +1,29 @@
+###Registro de usuarios
+POST http://127.0.0.1:3000/auth/register
+Content-Type: application/json
+
+{
+    "name":"prueba8",
+    "mail":"guatita2@goku.com",
+    "password":"123456"
+}
+
+### login sin conexion a bdd (arreglar no token)
+
+POST http://127.0.0.1:3000/auth/login
+Content-Type: application/json
+
+{
+    "name":"prueba2",
+    "mail":"guatita2@goku.com",
+    "password":"123456"
+}
+
+###Este usuario jala 
+    "name":"prueba",
+    "mail":"guatita@goku.com",
+    "password":"123456"
+
+### Users
+GET http://127.0.0.1:3000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiZ3VhdGl0YTJAZ29rdS5jb20iLCJpZCI6MywiaWF0IjoxNzMzNzA1NTY2LCJleHAiOjE3MzM3MDkxNjZ9.bZYc60ew3je8z7abjbSXLA-PnhM5O828V32H2IxIecA
